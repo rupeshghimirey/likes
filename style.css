@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* outline: 1px dashed red;  */
+    
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.content-header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.body-content {
+    display: flex;
+    gap: 20px;
+}
+.avatar-box {
+    flex:1;
+    height: 320px;
+    outline: 3px solid black;
+    padding:20px;
+}
+.image {
+    margin-bottom: 15px;
+    height: 180px;
+    margin-left: 45px;
+
+}
+
+.avatar-box p, .avatar-box h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.like-box {
+    flex:2;
+    outline: 3px solid black;
+    height:180px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.a-link {
+    color:blue;
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 35px;
+}
+
+
+
+.like {
+    width: 50px;
+    background-color: gold;
+    outline: 1px solid black;
+    color: rgb(0, 0, 0);
+    margin-right:15px;
+    height:30px;
+    width:65px;
+    box-shadow: 3px 2px 0px rgb(0 0 0);
+    cursor: pointer;
+}
+
+.user-likes {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+
+}
+.user-likes h4 {
+    margin-left: 300px;
+}
+
+
+.text {
+    font-size: 33px;
+}
